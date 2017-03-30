@@ -1,0 +1,98 @@
+
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	max-width: 75%;
+	margin: 0 auto;
+	padding: 0 5%;
+
+}
+
+/**********************************
+HEADING
+***********************************/
+
+.logo {
+	background-color: #D3F6D1;
+}
+
+.logo h1, h2 {
+	text-align: center;
+	color: #74B49B;
+}
+
+.logo h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+.logo h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+
+nav {
+	background-color: #74B49B;
+	color: white;
+	border-bottom: 5px solid #D3F6D1;
+	text-align: center;
+  	padding: 10px 0;
+  	margin: 20px 0 0;
+}
+
+nav > a, a:visited {
+	color: white;
+}
+
+nav a:hover {
+	color: #D3F6D1;
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
