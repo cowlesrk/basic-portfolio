@@ -5,6 +5,7 @@ GENERAL
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #bdc3c7;
 }
 
 a {
@@ -20,6 +21,10 @@ a {
 
 img {
 	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
 }
 
 /**********************************
@@ -97,6 +102,10 @@ nav a:hover {
 	color: #D3F6D1;
 }
 
+nav > ul > li .selected {
+	color: #FEF2A0;
+}
+
 /**********************************
 PORTFOLIO
 ***********************************/
@@ -119,6 +128,17 @@ PORTFOLIO
 	padding: 5%;
 	font-size: 0.75em;
 	color: #bdc3c7;
+}
+
+/**********************************
+ABOUT
+***********************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
 }
 
 /**********************************
