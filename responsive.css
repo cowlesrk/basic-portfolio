@@ -1,0 +1,84 @@
+@media screen and (min-width: 480px) {
+
+	/**********************************
+	TWO COLUMN LAYOUT
+	***********************************/
+
+
+
+	.col1 {
+		width: 40%;
+		float: left;
+	}
+
+	.col2 {
+		width: 30%;
+		float: left;
+		margin-left: 5em;
+	
+	}
+
+	/**********************************
+	3 elements side by side + (2.5 margin + 2.5 margin) = 5 = 15
+	100% of space - 15% of space taken up by margin = 85%
+	85 / 3 columns = 28.33333333
+	***********************************/
+
+	/**********************************
+	PORTFOLIO
+	***********************************/
+
+	.gallery li {
+		width: 28.333333%;
+	}
+
+	/**********************************
+	In this video, the selector :nth-child(4n) is used to correct 
+	a responsive issue on every 4th item. In other words, this will 
+	select the 4th item, 8th item, 12th item, and so on. This fixes 
+	the specific problem in the video, but if more gallery items are 
+	added beyond the 5 that are present in this project, the design 
+	will start to break again. That's because there are 3 items in 
+	each row, and every 4th item could appear at the beginning, middle, 
+	or end of a row.
+
+	Instead, we want to select the first item in each row. A more robust 
+	solution is to use the selector :nth-child(3n + 1) instead. This will 
+	elect every 3rd item plus 1. In other words, this will select the 4th 
+	item, 7th item, 10th item, and so on.
+	***********************************/
+
+	.gallery li:nth-child(3n + 1) {
+		clear: left;
+	}
+
+	/**********************************
+	ABOUT
+	***********************************/
+
+	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+}
+
+@media screen and (min-width: 660px) {
+
+	/**********************************
+	TWO COLUMN LAYOUT
+	***********************************/
+
+	.col1 {
+		width: 60%;
+		float: left;
+	}
+
+	.col2 {
+		width: 30%;
+		float: left;
+		margin-left: 5em;
+	
+	}
+	
+}
